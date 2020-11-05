@@ -1,0 +1,7 @@
+FOR HOSPITALS - 
+ID - HS123456
+PASSWORD - apollo123
+
+FOR RECEIVERS - 
+email - souviksarkar1396@gmail.com
+password - souvik123

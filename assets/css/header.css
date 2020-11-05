@@ -1,0 +1,24 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.red-divider {
+  height: 5px;
+  background-color: red;
+}
+.logo-red {
+  color: red;
+}
+.navbar {
+  padding: 1rem 1rem;
+}
+
+.nav-link {
+  font-weight: 500;
+}
+.nav-link:hover {
+  color: red !important;
+}
+a.dropdown-item:hover {
+  background-color: red !important;
+}

@@ -1,0 +1,158 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+/*body background*/
+.showcase {
+  background: url("../../images/handshake.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 83vh;
+  background-position: center;
+}
+
+/*Card design in body*/
+.card-main {
+  margin-top: 5rem;
+  border-radius: 2rem !important;
+  background-color: #e42313 !important;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+.btn {
+  background-color: rgb(256, 256, 256) !important;
+  color: rgb(216, 39, 39) !important;
+  box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.75);
+}
+.btn:hover {
+  background-color: black !important;
+  color: white !important;
+}
+.fa-hospital {
+  max-width: 50px !important;
+}
+.card-title {
+  font-family: "Roboto", sans-serif;
+  padding-top: 5px;
+  color: white;
+}
+i {
+  color: white;
+}
+.card-text {
+  color: white;
+}
+
+/*Middle learn more about us part*/
+.mid-heading {
+  color: white;
+  margin-bottom: 2rem;
+  margin-top: 10rem;
+  font-family: "Roboto", sans-serif;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+}
+.mid-part {
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/*For responsiveness*/
+@media only screen and (max-width: 768px) {
+  .card-body {
+    padding: 0.7rem !important;
+  }
+  .card-main {
+    max-width: 20rem !important;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .mid-heading {
+    color: white;
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+    font-family: "Roboto", sans-serif;
+  }
+  .mid-part {
+    margin-bottom: 4rem;
+  }
+  .showcase {
+    height: 120vh;
+  }
+}
+@media only screen and (max-width: 374px) {
+  .showcase {
+    height: 130vh;
+  }
+}
+
+/*registration pages */
+.showcase-hospital-registration-content {
+  background: url("../../images/bloodmate1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron {
+  background-color: #e42313 !important;
+  color: #ffffff;
+  padding: 1rem !important;
+}
+label {
+  color: black;
+}
+
+/*login pages */
+#error {
+  color: #e42313;
+}
+
+/* add blood info content */
+.showcase-add-blood-info-content {
+  background: url("../../images/redcross4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .card-form {
+    max-width: 200px;
+  }
+}
+
+.thead-red {
+  background-color: #e42313;
+  color: white;
+}
+
+.tbody-white {
+  background-color: white;
+}
+
+/*available blood content*/
+.showcase-available-blood-content {
+  background: url("../../images/redcross1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*hospital login */
+.showcase-hospital-login-content {
+  background: url("../../images/redcross4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* height: 100vh; */
+}
+.hero {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.showcase-view-request-content {
+  background: url("../../images/redcross1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 130vh;
+}
